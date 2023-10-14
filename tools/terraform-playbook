@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker container run -it --rm --name "terraform-workspace-${USER}" -e GIT_REPO=$2 -e GIT_BRANCH=$3 -e GIT_DIR=$4 --env-file .docker_env terraform:1.5.7-workspace /root/scripts/$1.sh

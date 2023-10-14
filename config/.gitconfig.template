@@ -1,0 +1,4 @@
+[user]
+        email = GIT_EMAIL
+        name =  GIT_NAME
+        token = GIT_TOKEN
